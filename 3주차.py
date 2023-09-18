@@ -1,3 +1,6 @@
+#02-5      88p       9/18
+
+
 dic = {'name':'pey', 'phone':'01199991111', 'birth':'1118'}
 
 a1= {1:'hi'}
@@ -41,6 +44,9 @@ print(student_grade)
 print(student_grade[0]["english"])
 
 #펼균값
+avg = (student_grade[0]["english"]+student_grade[0]["korean"]+student_grade[0]["math"]) / 3
+print(avg)
+
 
 
 
